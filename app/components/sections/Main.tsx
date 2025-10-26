@@ -22,7 +22,11 @@ export function Main() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
                 >
-                    <Cart title="Vizual Habbit" />
+                    <Cart
+                        title="Vizual Habbit"
+                        description="Добавь описание здесь"
+                        stack="Технологии которые использовались"
+                    />
                 </motion.div>
             </div>
         </section>
