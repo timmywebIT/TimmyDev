@@ -32,7 +32,7 @@ export function Main() {
                         Привет! Я Тимофей
                     </p>
                     <span className="font-bold text-xl">
-                    Фаундер, который превращает идеи в работающие цифровые продукты.
+                    Фаундер, который превращает идеи в работающие цифровые продукты
 
                 </span>
                     <span className="font-bold text-xl ">

@@ -14,19 +14,26 @@ export function Cases() {
                 <h2 className="font-bold text-4xl mb-8">
                     Кейсы
                 </h2>
-                <div className="mt-10 flex wrap space-x-10">
+                <div className="mt-10 justify-center flex flex-wrap space-x-10">
                     <div className="bg-white p-4 rounded-xl w-1/4 h-60 text-black ">
-                        <p className="">Прп</p>
+                        <p className="">Название:<span>Интернет-магащин</span></p>
+                        <p className="">Описание:<span>Интернет-магащин</span></p>
+                        <p className="">Стек:<span>Интернет-магащин</span></p>
+                        <a href="#">Посмотреть</a>
                     </div>
                     <div className="bg-white p-4 rounded-xl w-1/4 h-60 text-black ">
-                        <p className="">Прп</p>
+                        <p className="">Название:<span>Интернет-магащин</span></p>
+                        <p className="">Описание:<span>Интернет-магащин</span></p>
+                        <p className="">Стек:<span>Интернет-магащин</span></p>
+                        <a href="#">Посмотреть</a>
                     </div>
                     <div className="bg-white p-4 rounded-xl w-1/4 h-60 text-black ">
-                        <p className="">Прп</p>
+                        <p className="">Название:<span>Интернет-магащин</span></p>
+                        <p className="">Описание:<span>Интернет-магащин</span></p>
+                        <p className="">Стек:<span>Интернет-магащин</span></p>
+                        <a href="#">Посмотреть</a>
                     </div>
-                    <div className="bg-white p-4 rounded-xl w-1/4 h-60 text-black ">
-                        <p className="">Прп</p>
-                    </div>
+
                 </div>
             </motion.div>
         </section>
