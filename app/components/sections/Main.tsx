@@ -51,7 +51,7 @@ export function Main() {
                             <Image src={github} alt="git" width={40} />
                         </a>
 
-                        <a href="mailto:timkhorishikh98@gmail.com">
+                        <a href="https://mail.google.com/mail/?view=cm&to=timkhorishikh98@gmail.com">
                             <Image src={mail} alt="mail" width={45} />
                         </a>
                     </div>
