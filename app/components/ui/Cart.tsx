@@ -9,7 +9,6 @@ interface CartProps {
     stack: string
 }
 
-
 export function Cart({ title, description, stack }: CartProps) {
 
     const [flipped, setFlipped] = useState(false)

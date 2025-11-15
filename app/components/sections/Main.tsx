@@ -1,8 +1,10 @@
 'use client'
 
 import {motion} from "motion/react"
-
-import { Cases } from "@/app/components/pages/Cases";
+import Image from "next/image";
+import {Cases} from "@/app/components/pages/Cases";
+import github from "@/public/images/git.png";
+import mail from "@/public/images/mail.png";
 
 
 export function Main() {
@@ -38,9 +40,22 @@ export function Main() {
                     <span className="font-bold text-xl ">
                        Мой стек: JavaScript, TypeScript, React, Nest.js, PostgreSQL, Prisma
                     </span>
-                <span className="mt-10 mb-20">
-<a className="bg-pink-500 hover:bg-pink-600 p-4 text-white rounded-xl transition-colors duration-300"  href="https://t.me/timmydevs">Написать мне</a>                </span>
-                    <Cases />
+                    <div className="mt-10 mb-20 flex items-center ">
+                        <a
+                            className="bg-pink-500 hover:bg-pink-600 p-4 mr-3 text-white rounded-xl transition-colors duration-300"
+                            href="https://t.me/timmydevs"
+                        >
+                            Написать мне
+                        </a>
+                        <a  href="https://github.com/timmywebIT">
+                            <Image src={github} alt="git" width={40} />
+                        </a>
+
+                        <a href="mailto:timkhorishikh98@gmail.com">
+                            <Image src={mail} alt="mail" width={45} />
+                        </a>
+                    </div>
+                    <Cases/>
                 </motion.div>
 
             </div>
